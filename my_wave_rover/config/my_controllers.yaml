@@ -1,0 +1,25 @@
+controller_manager:
+  ros__parameters:
+    skid_steer_drive_controller:
+      type: "skid_steer_drive_controller/SkidSteerDriveController"
+      left_wheel_names: ["wheel_front_left_joint", "wheel_back_left_joint"]
+      right_wheel_names: ["wheel_front_right_joint", "wheel_back_right_joint"]
+      cmd_vel_topic: "/cmd_vel"
+      publish_rate: 50
+      wheel_separation: 0.130   # kiểm tra lại khoảng cách giữa các bánh xe
+      wheel_radius: 0.08        # kiểm tra lại bán kính bánh xe
+      publish_limited_velocity: true
+      enable_odom_tf: true
+      odom_frame_id: "odom"
+      base_frame_id: "base_footprint"
+      use_stamped_vel: false
+      linear:
+        x:
+          has_velocity_limits: true
+          max_velocity: 1.0  # Giới hạn vận tốc tuyến tính
+          min_velocity: -1.0
+      angular:
+        z:
+          has_velocity_limits: true
+          max_velocity: 1.0  # Giới hạn vận tốc góc
+          min_velocity: -1.0
