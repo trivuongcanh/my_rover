@@ -1,0 +1,4 @@
+ros2 launch my_bot launch_sim.launch.py world:=./src/my_rover/worlds/my_world.world use_sim_time:=true
+rviz2 -d src/my_rover/config/my_rviz.rviz 
+ros2 launch my_bot online_async_launch.py slam_params_file:=./src/my_rover/config/mapper_params_online_async.yaml use_sim_time:=true
+ros2 launch my_bot navigation_launch.py map_subscrible_transient_local:=true use_sim_time:=true

@@ -89,707 +89,338 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <model name='my_bot'>
-      <link name='base_footprint'>
-        <inertial>
-          <pose>0.001268 -0.000144 0.063415 0 -0 0</pose>
-          <mass>1.16584</mass>
-          <inertia>
-            <ixx>0.00288336</ixx>
-            <ixy>2.74656e-05</ixy>
-            <ixz>-6.41068e-05</ixz>
-            <iyy>0.00368668</iyy>
-            <iyz>-1.39439e-05</iyz>
-            <izz>0.00516459</izz>
-          </inertia>
-        </inertial>
-        <collision name='base_footprint_fixed_joint_lump__base_link_collision'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
+    <state world_name='default'>
+      <sim_time>758 629000000</sim_time>
+      <real_time>394 797369935</real_time>
+      <wall_time>1729932464 272327609</wall_time>
+      <iterations>155793</iterations>
+      <model name='Mailbox'>
+        <pose>1.89311 -2.22121 -9e-06 -1.1e-05 -1e-06 -0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>1.89311 -2.22121 -9e-06 -1.1e-05 -1e-06 -0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -9.8 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='cafe_table'>
+        <pose>-3.01837 -1.57574 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-3.01837 -1.57574 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='first_2015_trash_can'>
+        <pose>1.80524 -2.93133 -2e-06 -1.2e-05 -4e-06 -0.001585</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>1.80524 -2.93133 -2e-06 -1.2e-05 -4e-06 -0.001585</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0.98636 -3.25446 -1.64074 -0.306637 0.39221 3.1291</acceleration>
+          <wrench>4.76487 -15.7215 -7.92605 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='ground_plane'>
+        <pose>0 0 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>0 0 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='house'>
+        <pose>-3.68553 1.03527 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='Wall_16'>
+          <pose>-6.61053 -0.774466 0 0 0 -1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_17'>
+          <pose>-3.68553 -3.19947 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_18'>
+          <pose>-0.760536 -0.774466 0 0 -0 1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_19'>
+          <pose>-3.68553 1.65053 0 0 -0 3.14159</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_25'>
+          <pose>-4.02452 0.335404 0 0 0 -1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_27'>
+          <pose>-5.55194 -0.774466 0 0 0 -1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_29'>
+          <pose>-2.63321 0.936304 0 0 0 -1.5708</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='Wall_30'>
+          <pose>-1.6931 0.222084 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <light name='sun'>
+        <pose>0 0 10 0 -0 0</pose>
+      </light>
+    </state>
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0.032958 2.02745 21.6128 0 1.2658 -1.55835</pose>
+        <view_controller>orbit</view_controller>
+        <projection_type>perspective</projection_type>
+      </camera>
+    </gui>
+    <model name='house'>
+      <pose>-3.0416 -1.28083 0 0 -0 0</pose>
+      <link name='Wall_16'>
+        <pose>-2.925 -1.80974 0 0 -0 -1.5708</pose>
+        <visual name='Wall_16_Visual_0'>
+          <pose>-1.92904 0 1.25 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/base_link.stl</uri>
-            </mesh>
+            <box>
+              <size>1.14192 0.15 2.5</size>
+            </box>
           </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_16_Collision_0'>
+          <geometry>
+            <box>
+              <size>1.14192 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>-1.92904 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
           <surface>
             <contact>
               <ode/>
             </contact>
+            <bounce/>
             <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
               <torsional>
                 <ode/>
               </torsional>
+              <ode/>
             </friction>
-            <bounce/>
           </surface>
-          <max_contacts>10</max_contacts>
         </collision>
-        <collision name='base_footprint_fixed_joint_lump__top_shell_link_collision_1'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
+        <visual name='Wall_16_Visual_1'>
+          <pose>0.570959 0 0.25 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/top_shell_link.stl</uri>
-            </mesh>
+            <box>
+              <size>3.85808 0.15 0.5</size>
+            </box>
           </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_16_Collision_1'>
+          <geometry>
+            <box>
+              <size>3.85808 0.15 0.5</size>
+            </box>
+          </geometry>
+          <pose>0.570959 0 0.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
           <surface>
             <contact>
               <ode/>
             </contact>
+            <bounce/>
             <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
               <torsional>
                 <ode/>
               </torsional>
+              <ode/>
             </friction>
-            <bounce/>
           </surface>
-          <max_contacts>10</max_contacts>
         </collision>
-        <collision name='base_footprint_fixed_joint_lump__lidar_link_collision_2'>
-          <pose>0.04 0 0.0865 0 -0 1.5708</pose>
+        <visual name='Wall_16_Visual_2'>
+          <pose>-0.096078 0 1.5 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/LD19.stl</uri>
-            </mesh>
+            <box>
+              <size>0.924008 0.15 2</size>
+            </box>
           </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_16_Collision_2'>
+          <geometry>
+            <box>
+              <size>0.924008 0.15 2</size>
+            </box>
+          </geometry>
+          <pose>-0.096078 0 1.5 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
           <surface>
             <contact>
               <ode/>
             </contact>
+            <bounce/>
             <friction>
-              <ode/>
               <torsional>
                 <ode/>
               </torsional>
+              <ode/>
             </friction>
-            <bounce/>
           </surface>
-          <max_contacts>10</max_contacts>
         </collision>
-        <collision name='base_footprint_fixed_joint_lump__accessories1_link_collision_3'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
+        <visual name='Wall_16_Visual_3'>
+          <pose>1.83296 0 1.5 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/accessories1_link.stl</uri>
-            </mesh>
+            <box>
+              <size>1.33407 0.15 2</size>
+            </box>
           </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_16_Collision_3'>
+          <geometry>
+            <box>
+              <size>1.33407 0.15 2</size>
+            </box>
+          </geometry>
+          <pose>1.83296 0 1.5 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
           <surface>
             <contact>
               <ode/>
             </contact>
+            <bounce/>
             <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
               <torsional>
                 <ode/>
               </torsional>
+              <ode/>
             </friction>
-            <bounce/>
           </surface>
-          <max_contacts>10</max_contacts>
         </collision>
-        <collision name='base_footprint_fixed_joint_lump__accessories_link_collision_4'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
+        <visual name='Wall_16_Visual_4'>
+          <pose>-0.958082 0 1.9 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/accessories_link.stl</uri>
-            </mesh>
+            <box>
+              <size>0.8 0.15 1.2</size>
+            </box>
           </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_16_Collision_4'>
+          <geometry>
+            <box>
+              <size>0.8 0.15 1.2</size>
+            </box>
+          </geometry>
+          <pose>-0.958082 0 1.9 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
           <surface>
             <contact>
               <ode/>
             </contact>
+            <bounce/>
             <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
               <torsional>
                 <ode/>
               </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <collision name='base_footprint_fixed_joint_lump__imu_link_collision_5'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/board_link.stl</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
               <ode/>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
             </friction>
-            <bounce/>
           </surface>
-          <max_contacts>10</max_contacts>
         </collision>
-        <collision name='base_footprint_fixed_joint_lump__oled_screen_link_collision_6'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
+        <visual name='Wall_16_Visual_5'>
+          <pose>0.765926 0 1.9 0 -0 0</pose>
           <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/oled_screen_link.stl</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='base_footprint_fixed_joint_lump__base_link_visual'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/base_link.stl</uri>
-            </mesh>
+            <box>
+              <size>0.8 0.15 1.2</size>
+            </box>
           </geometry>
           <material>
             <script>
-              <name>Gazebo/DarkGrey</name>
               <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
             </script>
+            <ambient>1 1 1 1</ambient>
           </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
         </visual>
-        <visual name='base_footprint_fixed_joint_lump__top_shell_link_visual_1'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
+        <collision name='Wall_16_Collision_5'>
           <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/top_shell_link.stl</uri>
-            </mesh>
+            <box>
+              <size>0.8 0.15 1.2</size>
+            </box>
           </geometry>
-          <material>
-            <script>
-              <name>Gazebo/DarkGrey</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_footprint_fixed_joint_lump__lidar_link_visual_2'>
-          <pose>0.04 0 0.0865 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/LD19.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_footprint_fixed_joint_lump__accessories1_link_visual_3'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/accessories1_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_footprint_fixed_joint_lump__accessories_link_visual_4'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/accessories_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_footprint_fixed_joint_lump__imu_link_visual_5'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/board_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Orange</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_footprint_fixed_joint_lump__oled_screen_link_visual_6'>
-          <pose>0 0 0.0337 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/oled_screen_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/BlueGlow</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <sensor name='HLS-LFCD-LDS' type='ray'>
-          <visualize>1</visualize>
-          <topic>scan</topic>
-          <always_on>1</always_on>
-          <update_rate>10</update_rate>
-          <ray>
-            <scan>
-              <horizontal>
-                <samples>360</samples>
-                <min_angle>-3.14159</min_angle>
-                <max_angle>3.14159</max_angle>
-                <resolution>1</resolution>
-              </horizontal>
-              <vertical>
-                <samples>1</samples>
-                <min_angle>0</min_angle>
-                <max_angle>0</max_angle>
-              </vertical>
-            </scan>
-            <range>
-              <min>0.03</min>
-              <max>12</max>
-            </range>
-            <noise>
-              <type>gaussian</type>
-              <mean>0</mean>
-              <stddev>0.01</stddev>
-            </noise>
-          </ray>
-          <plugin name='laser_controller' filename='libgazebo_ros_ray_sensor.so'>
-            <ros>
-              <argument>~/out:=scan</argument>
-            </ros>
-            <output_type>sensor_msgs/LaserScan</output_type>
-            <topicName>sensor_msgs/LaserScan</topicName>
-            <frameName>lidar_link</frameName>
-          </plugin>
-          <pose>0.04 0 0.1135 0 -0 0</pose>
-        </sensor>
-        <gravity>1</gravity>
-        <sensor name='imu_sensor' type='imu'>
-          <always_on>1</always_on>
-          <update_rate>100</update_rate>
-          <visualize>1</visualize>
-          <topic>imu</topic>
-          <plugin name='imu_plugin' filename='libgazebo_ros_imu_sensor.so'>
-            <topicName>imu</topicName>
-            <bodyName>imu_link</bodyName>
-            <updateRateHZ>10.0</updateRateHZ>
-            <gaussianNoise>0.0</gaussianNoise>
-            <xyzOffset>0 0 0</xyzOffset>
-            <rpyOffset>0 0 0</rpyOffset>
-            <frameName>imu_link</frameName>
-            <initialOrientationAsReference>0</initialOrientationAsReference>
-          </plugin>
-          <pose>-0.009279 -0.009816 0.074991 0 -0 0</pose>
-          <imu/>
-        </sensor>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <joint name='wheel_back_left_joint' type='revolute'>
-        <pose relative_to='base_footprint'>-0.048591 0.065386 0.038499 0 -0 0</pose>
-        <parent>base_footprint</parent>
-        <child>wheel_back_left_link</child>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics>
-            <spring_reference>0</spring_reference>
-            <spring_stiffness>0</spring_stiffness>
-          </dynamics>
-        </axis>
-      </joint>
-      <link name='wheel_back_left_link'>
-        <pose relative_to='wheel_back_left_joint'>0 0 0 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 1.5708</pose>
-          <mass>1.01701</mass>
-          <inertia>
-            <ixx>0.00111536</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.000711572</iyy>
-            <iyz>0</iyz>
-            <izz>0.000709949</izz>
-          </inertia>
-        </inertial>
-        <collision name='wheel_back_left_link_collision'>
-          <pose>0.048591 -0.065386 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_back_left_link.stl</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='wheel_back_left_link_visual'>
-          <pose>0.048591 -0.065386 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_back_left_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <joint name='wheel_back_right_joint' type='revolute'>
-        <pose relative_to='base_footprint'>-0.048405 -0.065287 0.038499 0 -0 0</pose>
-        <parent>base_footprint</parent>
-        <child>wheel_back_right_link</child>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics>
-            <spring_reference>0</spring_reference>
-            <spring_stiffness>0</spring_stiffness>
-          </dynamics>
-        </axis>
-      </joint>
-      <link name='wheel_back_right_link'>
-        <pose relative_to='wheel_back_right_joint'>0 0 0 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 1.5708</pose>
-          <mass>1.01701</mass>
-          <inertia>
-            <ixx>0.00111539</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.000711572</iyy>
-            <iyz>0</iyz>
-            <izz>0.000709977</izz>
-          </inertia>
-        </inertial>
-        <collision name='wheel_back_right_link_collision'>
-          <pose>0.048405 0.065287 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_back_right_link.stl</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='wheel_back_right_link_visual'>
-          <pose>0.048405 0.065287 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_back_right_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <joint name='wheel_front_left_joint' type='revolute'>
-        <pose relative_to='base_footprint'>0.048407 0.065386 0.038499 0 -0 0</pose>
-        <parent>base_footprint</parent>
-        <child>wheel_front_left_link</child>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics>
-            <spring_reference>0</spring_reference>
-            <spring_stiffness>0</spring_stiffness>
-          </dynamics>
-        </axis>
-      </joint>
-      <link name='wheel_front_left_link'>
-        <pose relative_to='wheel_front_left_joint'>0 0 0 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 1.5708</pose>
-          <mass>1.01702</mass>
-          <inertia>
-            <ixx>0.00111539</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.000711572</iyy>
-            <iyz>0</iyz>
-            <izz>0.000709976</izz>
-          </inertia>
-        </inertial>
-        <collision name='wheel_front_left_link_collision'>
-          <pose>-0.048407 -0.065386 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_front_left_link.stl</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='wheel_front_left_link_visual'>
-          <pose>-0.048407 -0.065386 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_front_left_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <joint name='wheel_front_right_joint' type='revolute'>
-        <pose relative_to='base_footprint'>0.048593 -0.065287 0.038499 0 -0 0</pose>
-        <parent>base_footprint</parent>
-        <child>wheel_front_right_link</child>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics>
-            <spring_reference>0</spring_reference>
-            <spring_stiffness>0</spring_stiffness>
-          </dynamics>
-        </axis>
-      </joint>
-      <link name='wheel_front_right_link'>
-        <pose relative_to='wheel_front_right_joint'>0 0 0 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 1.5708</pose>
-          <mass>1.01701</mass>
-          <inertia>
-            <ixx>0.00111536</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.000711572</iyy>
-            <iyz>0</iyz>
-            <izz>0.000709949</izz>
-          </inertia>
-        </inertial>
-        <collision name='wheel_front_right_link_collision'>
-          <pose>-0.048593 0.065287 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_front_right_link.stl</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
-              <torsional>
-                <ode/>
-              </torsional>
-            </friction>
-            <bounce/>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='wheel_front_right_link_visual'>
-          <pose>-0.048593 0.065287 -0.004799 0 -0 1.5708</pose>
-          <geometry>
-            <mesh>
-              <scale>0.001 0.001 0.001</scale>
-              <uri>file:///home/trivc/dev_ws/install/my_bot/share/my_bot/meshes/wheel_front_right_link.stl</uri>
-            </mesh>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>file://media/materials/scripts/gazebo.material</uri>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>0</static>
-      <plugin name='skid_steer_drive' filename='libgazebo_ros_diff_drive.so'>
-        <ros>
-          <robotNamespace/>
-        </ros>
-        <updateRate>100.0</updateRate>
-        <num_wheel_pairs>2</num_wheel_pairs>
-        <left_joint>wheel_front_left_joint</left_joint>
-        <left_joint>wheel_back_left_joint</left_joint>
-        <right_joint>wheel_front_right_joint</right_joint>
-        <right_joint>wheel_back_right_joint</right_joint>
-        <wheel_separation>0.123</wheel_separation>
-        <wheel_separation>0.123</wheel_separation>
-        <wheel_diameter>0.0812</wheel_diameter>
-        <wheel_diameter>0.0812</wheel_diameter>
-        <max_wheel_torque>2</max_wheel_torque>
-        <max_wheel_acceleration>5.0</max_wheel_acceleration>
-        <publish_odom>1</publish_odom>
-        <publish_odom_tf>1</publish_odom_tf>
-        <publish_wheel_tf>1</publish_wheel_tf>
-        <odometry_frame>odom</odometry_frame>
-        <robot_base_frame>base_footprint</robot_base_frame>
-      </plugin>
-      <pose>0 0 0 0 -0 0</pose>
-    </model>
-    <model name='first_2015_trash_can'>
-      <link name='link'>
-        <inertial>
-          <pose>0 0 0.3683 0 -0 0</pose>
-          <mass>4.83076</mass>
-          <inertia>
-            <ixx>0.281534</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.281534</iyy>
-            <iyz>0</iyz>
-            <izz>0.126223</izz>
-          </inertia>
-        </inertial>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://first_2015_trash_can/meshes/trash_can.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://first_2015_trash_can/meshes/trash_can.dae</uri>
-            </mesh>
-          </geometry>
+          <pose>0.765926 0 1.9 0 -0 0</pose>
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
@@ -808,7 +439,673 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>1.39849 -0.946851 0 0 -0 0</pose>
+      <link name='Wall_17'>
+        <collision name='Wall_17_Collision'>
+          <geometry>
+            <box>
+              <size>6 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_17_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>6 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-0 -4.23474 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_18'>
+        <pose>2.925 -1.80974 0 0 -0 1.5708</pose>
+        <visual name='Wall_18_Visual_0'>
+          <pose>-2.17554 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.648913 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_18_Collision_0'>
+          <geometry>
+            <box>
+              <size>0.648913 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>-2.17554 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_18_Visual_1'>
+          <pose>-0.627504 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.647165 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_18_Collision_1'>
+          <geometry>
+            <box>
+              <size>0.647165 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>-0.627504 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_18_Visual_2'>
+          <pose>1.09804 0 0.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>2.80392 0.15 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_18_Collision_2'>
+          <geometry>
+            <box>
+              <size>2.80392 0.15 0.5</size>
+            </box>
+          </geometry>
+          <pose>1.09804 0 0.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_18_Visual_3'>
+          <pose>1.49804 0 1.5 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>2.00392 0.15 2</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_18_Collision_3'>
+          <geometry>
+            <box>
+              <size>2.00392 0.15 2</size>
+            </box>
+          </geometry>
+          <pose>1.49804 0 1.5 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_18_Visual_4'>
+          <pose>0.096078 0 1.9 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.8 0.15 1.2</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_18_Collision_4'>
+          <geometry>
+            <box>
+              <size>0.8 0.15 1.2</size>
+            </box>
+          </geometry>
+          <pose>0.096078 0 1.9 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_18_Visual_5'>
+          <pose>-1.40109 0 2.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.9 0.15 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_18_Collision_5'>
+          <geometry>
+            <box>
+              <size>0.9 0.15 0.5</size>
+            </box>
+          </geometry>
+          <pose>-1.40109 0 2.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_19'>
+        <collision name='Wall_19_Collision'>
+          <geometry>
+            <box>
+              <size>6 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_19_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>6 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-0 0.615258 0 0 -0 3.14159</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_25'>
+        <collision name='Wall_25_Collision'>
+          <geometry>
+            <box>
+              <size>2.75 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_25_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>2.75 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Wood</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>-0.338989 -0.699865 0 0 -0 -1.5708</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_27'>
+        <pose>-1.8664 -1.80974 0 0 -0 -1.5708</pose>
+        <visual name='Wall_27_Visual_0'>
+          <pose>-0.721526 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>3.55695 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_27_Collision_0'>
+          <geometry>
+            <box>
+              <size>3.55695 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>-0.721526 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_27_Visual_1'>
+          <pose>2.22847 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.543053 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_27_Collision_1'>
+          <geometry>
+            <box>
+              <size>0.543053 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>2.22847 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_27_Visual_2'>
+          <pose>1.50695 0 2.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.9 0.15 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Bricks</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_27_Collision_2'>
+          <geometry>
+            <box>
+              <size>0.9 0.15 0.5</size>
+            </box>
+          </geometry>
+          <pose>1.50695 0 2.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_29'>
+        <collision name='Wall_29_Collision'>
+          <geometry>
+            <box>
+              <size>1.57853 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_29_Visual'>
+          <pose>0 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>1.57853 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Wood</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <pose>1.05232 -0.098967 0 0 -0 -1.5708</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='Wall_30'>
+        <pose>1.99244 -0.813192 0 0 -0 0</pose>
+        <visual name='Wall_30_Visual_0'>
+          <pose>-0.718691 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.562618 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Wood</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_30_Collision_0'>
+          <geometry>
+            <box>
+              <size>0.562618 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>-0.718691 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_30_Visual_1'>
+          <pose>0.731309 0 1.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.537382 0.15 2.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Wood</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_30_Collision_1'>
+          <geometry>
+            <box>
+              <size>0.537382 0.15 2.5</size>
+            </box>
+          </geometry>
+          <pose>0.731309 0 1.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='Wall_30_Visual_2'>
+          <pose>0.012618 0 2.25 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.9 0.15 0.5</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Wood</name>
+            </script>
+            <ambient>1 1 1 1</ambient>
+          </material>
+          <meta>
+            <layer>0</layer>
+          </meta>
+        </visual>
+        <collision name='Wall_30_Collision_2'>
+          <geometry>
+            <box>
+              <size>0.9 0.15 0.5</size>
+            </box>
+          </geometry>
+          <pose>0.012618 0 2.25 0 -0 0</pose>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <static>1</static>
     </model>
     <model name='Mailbox'>
       <link name='link'>
@@ -862,18 +1159,106 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>0.977902 -1.94813 0 0 -0 0</pose>
+      <pose>0.934629 -0.987104 0 0 -0 0</pose>
     </model>
-    <model name='table_marble'>
-      <static>1</static>
-      <pose>-3.29866 1.35099 0.648 0 -0 0</pose>
+    <model name='first_2015_trash_can'>
       <link name='link'>
+        <inertial>
+          <pose>0 0 0.3683 0 -0 0</pose>
+          <mass>4.83076</mass>
+          <inertia>
+            <ixx>0.281534</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.281534</iyy>
+            <iyz>0</iyz>
+            <izz>0.126223</izz>
+          </inertia>
+        </inertial>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://first_2015_trash_can/meshes/trash_can.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>model:///table_marble/meshes/table_lightmap.dae</uri>
-              <scale>0.25 0.25 0.25</scale>
+              <uri>model://first_2015_trash_can/meshes/trash_can.dae</uri>
             </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>0.34133 -1.45127 0 0 -0 0</pose>
+    </model>
+    <model name='cafe_table'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='surface'>
+          <pose>0 0 0.755 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.913 0.913 0.04</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='column'>
+          <pose>0 0 0.37 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.042 0.042 0.74</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base'>
+          <pose>0 0 0.02 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.56 0.56 0.04</size>
+            </box>
           </geometry>
           <max_contacts>10</max_contacts>
           <surface>
@@ -892,113 +1277,15 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>model://table_marble/meshes/table_lightmap.dae</uri>
-              <scale>0.25 0.25 0.25</scale>
+              <uri>model://cafe_table/meshes/cafe_table.dae</uri>
             </mesh>
           </geometry>
-          <material>
-            <script>
-              <uri>model://table_marble/materials/scripts</uri>
-              <uri>model://table_marble/materials/textures</uri>
-              <name>Table/Marble_Lightmap</name>
-            </script>
-            <lighting>0</lighting>
-          </material>
         </visual>
         <self_collide>0</self_collide>
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
+      <pose>-2.30989 -3.58269 0 0 -0 0</pose>
     </model>
-    <state world_name='default'>
-      <sim_time>24 505000000</sim_time>
-      <real_time>207 677016481</real_time>
-      <wall_time>1729445158 258792554</wall_time>
-      <iterations>24505</iterations>
-      <model name='Mailbox'>
-        <pose>0.977902 -1.94813 -1e-05 -8e-06 0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>0.977902 -1.94813 -1e-05 -8e-06 0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -9.8 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='first_2015_trash_can'>
-        <pose>1.39854 -0.946856 -2e-06 -4e-06 8e-06 -0.00031</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>1.39854 -0.946856 -2e-06 -4e-06 8e-06 -0.00031</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>6.23136 -0.895054 5.06481 -0.711337 -1.21135 -3.14143</acceleration>
-          <wrench>30.1022 -4.32379 24.4669 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='ground_plane'>
-        <pose>0 0 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>0 0 0 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='my_bot'>
-        <pose>0.003871 -0.000117 0.002083 3.3e-05 3.4e-05 0.003587</pose>
-        <scale>1 1 1</scale>
-        <link name='base_footprint'>
-          <pose>0.003871 -0.000117 0.002083 3.3e-05 3.4e-05 0.003587</pose>
-          <velocity>-2e-06 4e-06 -0.000364 -0.002425 -0.000973 7e-06</velocity>
-          <acceleration>0.001071 -0.001207 -9.80052 -0.063983 -0.0026 0.0019</acceleration>
-          <wrench>0.001248 -0.001407 -11.4258 0 -0 0</wrench>
-        </link>
-        <link name='wheel_back_left_link'>
-          <pose>-0.044953 0.065093 0.040586 3.3e-05 -0.005896 0.003586</pose>
-          <velocity>-4.1e-05 0.0001 -0.00057 -0.002351 -0.000973 2e-06</velocity>
-          <acceleration>-0.001239 0.001018 -9.80623 0.073727 0.014309 -0.00849</acceleration>
-          <wrench>-0.00126 0.001035 -9.97304 0 -0 0</wrench>
-        </link>
-        <link name='wheel_back_right_link'>
-          <pose>-0.044299 -0.065578 0.040582 3.3e-05 -0.003785 0.003587</pose>
-          <velocity>-3.9e-05 0.0001 -0.000251 -0.00236 -0.000973 8e-06</velocity>
-          <acceleration>0.001857 0.00184 -9.79445 0.057071 0.034691 0.003387</acceleration>
-          <wrench>0.001889 0.001872 -9.96106 0 -0 0</wrench>
-        </link>
-        <link name='wheel_front_left_link'>
-          <pose>0.052044 0.065441 0.040583 3.2e-05 -0.001081 0.003587</pose>
-          <velocity>-4.1e-05 0.0001 -0.000471 -0.002327 -0.000973 8e-06</velocity>
-          <acceleration>-0.000906 0.000148 -9.79463 0.125554 0.019338 0.003143</acceleration>
-          <wrench>-0.000921 0.00015 -9.96134 0 -0 0</wrench>
-        </link>
-        <link name='wheel_front_right_link'>
-          <pose>0.052699 -0.06523 0.040578 3.2e-05 -0.002308 0.003587</pose>
-          <velocity>-4e-05 9.9e-05 -0.000163 -0.002304 -0.000973 6e-06</velocity>
-          <acceleration>-0.000941 -0.001622 -9.80409 0.170605 0.001659 -0.001193</acceleration>
-          <wrench>-0.000957 -0.001649 -9.97085 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='table_marble'>
-        <pose>-3.29866 1.35099 0.648 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>-3.29866 1.35099 0.648 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <light name='sun'>
-        <pose>0 0 10 0 -0 0</pose>
-      </light>
-    </state>
-    <gui fullscreen='0'>
-      <camera name='user_camera'>
-        <pose>5 -5 2 0 0.275643 2.35619</pose>
-        <view_controller>orbit</view_controller>
-        <projection_type>perspective</projection_type>
-      </camera>
-    </gui>
   </world>
 </sdf>

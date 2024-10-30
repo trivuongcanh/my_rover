@@ -79,7 +79,7 @@
         <robotNamespace></robotNamespace>
         <remapping>cmd_vel:=/cmd_vel</remapping>
       </ros>
-      <updateRate>100.0</updateRate>
+      <updateRate>10.0</updateRate>
 
       <num_wheel_pairs>2</num_wheel_pairs>
       
